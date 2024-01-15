@@ -15,6 +15,18 @@
 .primary-color{
     color: #F00;
 }
+.primary-btn{
+    background-color: #f00; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Inter;
+    font-size: 16px;
+    cursor: pointer;
+}
 
 /* Hero Image */
 .banner{
@@ -79,5 +91,48 @@
 .new-year-img{
     width: 750px;
     height: 450px;
+    margin-bottom: 120px;
+}
+
+/* Party Section */
+.party-banner{
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+    url('../Resources/Images/Vectorrr.png');
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    border-radius: 16px;
     margin-bottom: 100px;
+}
+.party-greeting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px 100px;
+}
+.party-yr-img img{
+    width: 300px;
+height: 400px;
+}
+.party-greeting h2{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 83px; /* 137.5% */
+    letter-spacing: 7.04px;
+    margin-bottom: 15px;
+}
+.party-greeting p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    margin-bottom: 15px;
 }
