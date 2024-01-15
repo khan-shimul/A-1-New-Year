@@ -140,6 +140,7 @@ height: 400px;
     justify-content: center;
     align-items: center;
     column-gap: 30px;
+    margin-bottom: 90px;
 }
 .best-offer{
     font-family: Inter;
@@ -180,4 +181,45 @@ height: 400px;
     font-weight: 400;
     line-height: 28px;
     margin-bottom: 35px;
+}
+/* Portfolio Section */
+.portfolio-header h5{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.portfolio-header h3{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.portfolio-header p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 17px;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+.portfolio-img-container{
+    display: flex;
+    column-gap: 24px;
+    margin-bottom: 24px;
+}
+.portfolio-img-container img{
+    width: 380px;
+    height: 400px;
+    transition: 0.5s;
+    
+}
+.portfolio-img-container img:hover{
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    border-radius: 16px;
+    /* width: 400px;
+    height: 420px; */
+    
 }
